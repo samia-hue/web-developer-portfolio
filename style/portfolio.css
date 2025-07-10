@@ -40,6 +40,7 @@ nav{
     justify-content: space-between;
     margin: 50px 20px;
 }
+/*share styles*/
 
 .btn{
     background-color: #FD6E0A;
@@ -49,7 +50,12 @@ nav{
     border-radius: 5px;
     font-weight: 20px;
     border: none;
+    margin: 5px;
 
+
+}
+.text-center{
+    text-align: center;
 
 }
 
@@ -58,6 +64,7 @@ nav{
     font-weight:800 ;
     font-size: 45px;
 }
+/*banner*/
 
 .banner-welcome{
     font-size: 45px;
@@ -86,4 +93,65 @@ nav{
 }
 .banner-pic{
     width: 580px;
+}
+/*section*/
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+    text-align: center;
+
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    
+    
+}
+
+/*about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px ;
+    text-align: center;
+    
+    background-color: rgb(244, 241, 236);
+}
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;   
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.secondary-bg{
+    background-color: #fff8f3;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+/*skills section stction*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 33px;
+    box-shadow: 0px 6px 50px 0px rgb(102, 101, 101);
+    border-radius: 5px ;
+}
+.skill-description{
+    
+    font-size: 18px;
 }
